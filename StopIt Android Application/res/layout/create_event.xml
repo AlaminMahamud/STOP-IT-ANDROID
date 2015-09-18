@@ -1,0 +1,170 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_event_create"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        style="@style/edit_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/event_name"
+            android:text="Create Event" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="false"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout
+                style="@style/layout_item_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" >
+
+                <EditText
+                    android:id="@+id/eventName"
+                    style="@style/edit_lay"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:hint="Event name"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" >
+                <EditText
+                    android:id="@+id/corruptorName"
+                    style="@style/edit_lay"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:hint="Corrupted Person&apos;s Name"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/workingPlace"
+                    style="@style/edit_lay"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Working Place" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/thana"
+                    style="@style/edit_lay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:focusableInTouchMode="true"
+                    android:hint="Thana" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/upzilla"
+                    style="@style/edit_lay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:focusableInTouchMode="true"
+                    android:hint="Upzilla" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/district"
+                    style="@style/edit_lay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:hint="District" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    style="@style/static_edit_text"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="Descritpion"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/description"
+                    style="@style/edit_lay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:hint="Describe his crime"
+                    android:inputType="none"
+                    android:textAlignment="viewStart" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/proof"
+                    style="@style/edit_lay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="9"
+                    android:hint="Proof " />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                style="@style/submit_btn"
+                android:text="Create" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
