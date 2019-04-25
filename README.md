@@ -1,2 +1,3 @@
-# STOP-IT-ANDROID
-an android app to stop corruption
+# Decay
+
+An android app to Report about social crimes like corruption
